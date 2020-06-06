@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="Budget.app" target="1.8" />
+      <module name="Budget.buildSrc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
