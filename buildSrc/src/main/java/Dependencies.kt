@@ -12,7 +12,10 @@ object Libs {
     val navigation_ui = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
     val navigation_fragments = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
 
+    //testing
     val junit = "junit:junit:4.13"
     val test_ext = "androidx.test.ext:junit:1.1.1"
     val test_espresso = "androidx.test.espresso:espresso-core:3.2.0"
+    val robolectric = "org.robolectric:robolectric:4.3"
+    val mockk = "io.mockk:mockk:1.10.0"
 }

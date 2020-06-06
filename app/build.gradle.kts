@@ -32,6 +32,11 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    testOptions {
+        unitTests {
+            isIncludeAndroidResources = true
+        }
+    }
 }
 
 dependencies {
@@ -43,6 +48,8 @@ dependencies {
     implementation(Libs.navigation_fragments)
     implementation(Libs.navigation_ui)
     testImplementation(Libs.junit)
+    testImplementation(Libs.robolectric)
+    testImplementation(Libs.mockk)
     androidTestImplementation(Libs.test_ext)
     androidTestImplementation(Libs.test_espresso)
 }
